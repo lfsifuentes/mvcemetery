@@ -4,7 +4,7 @@ import { resolve } from 'path'
 
 export default defineConfig({
   plugins: [tailwindcss()],
-  base: '/mvcemetery/',
+  base: '/',
   build: {
     rollupOptions: {
       input: {
