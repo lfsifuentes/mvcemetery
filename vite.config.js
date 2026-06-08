@@ -10,6 +10,9 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, 'index.html'),
         about: resolve(__dirname, 'about/index.html'),
+        donate: resolve(__dirname, 'donate/index.html'),
+        map: resolve(__dirname, 'map/index.html'),
+        contact: resolve(__dirname, 'contact/index.html'),
       },
     },
   },
